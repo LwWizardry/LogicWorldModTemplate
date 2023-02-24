@@ -1,0 +1,7 @@
+ID: $safeprojectname$
+Name: $safeprojectname$
+Author: $username$
+Version: 0.0.1
+Priority: 1
+ClientOnly: false
+Dependencies:
