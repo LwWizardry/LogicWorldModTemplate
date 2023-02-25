@@ -14,3 +14,9 @@ jobs:
         type: 'zip'
         filename: 'LogicWorldModTemplate.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
+        
+    - name: Upload Release
+    - uses: ncipollo/release-action@v1.12.0
+      with:
+       artifacts: "LogicWorldModTemplate.zip"
+       token: ${{ secrets.GITHUB_TOKEN }}
