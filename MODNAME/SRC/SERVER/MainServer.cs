@@ -4,7 +4,7 @@ using LogicAPI.Server;
 
 namespace $safeprojectname$.Server
 {
-    public class ServerMain : ServerMod
+    public class MainServer	: ServerMod
     {
         protected override void Initialize()
         {
