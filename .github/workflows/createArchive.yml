@@ -1,8 +1,6 @@
 name: Create Archive
 on:
-  pull_request:
   push:
-    branches: main
     tags:
     - '*'
 jobs:
